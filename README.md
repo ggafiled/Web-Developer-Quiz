@@ -26,3 +26,8 @@ echo "ข้อมูลจากการคำนวณ: ".print_r(implode(","
 
 ##### ตัวอย่างผลลัพธ์
 > ข้อมูลจากการคำนวณ: 44, 29,23, 20,14, 14, 7,5
+
+##### ภาพหน้าจอ
+![UI](https://github.com/ggafiled/Web-Developer-Quiz/blob/master/Capture.PNG?raw=true)
+
+![UI](https://github.com/ggafiled/Web-Developer-Quiz/blob/master/Capture3.PNG?raw=true)
