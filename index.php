@@ -14,6 +14,7 @@
 
 <body>
   <?php
+  require('vendor/autoload.php');
   include("connectdb.php");
 
   $db->query("DELETE FROM number_db");

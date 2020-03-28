@@ -1,0 +1,26 @@
+{
+  "require": {
+      "php": ">=7.2.28",
+      "silex/silex": "~1.0@dev",
+      "chh/cache-service-provider": "~1.0"
+  },
+  "extra": {
+      "heroku": {
+          "document-root": "web",
+          "index-document": "index.php",
+          "php-config": [
+              "short_open_tag=on",
+              "date.timezone=Asia/Bangkok",
+              "newrelic.appname=php-test"
+          ],
+          "engines": {
+              "php": "7.2.*",
+              "nginx": "1.4.*"
+          },
+          "compile": [
+              "echo $FOO"
+          ],
+          "newrelic": true
+      }
+  }
+}
