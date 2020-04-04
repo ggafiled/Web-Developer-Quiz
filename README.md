@@ -6,7 +6,7 @@
 2. ให้แสดงผลข้อมูลจากการคำนวณในข้อ 1 โดยเรียงลำดับจากมากไปหาน้อย
 
 <i> ตอบ </i> 
-> Demo [https://web-developer-quiz-php.herokuapp.com/]
+> Demo [https://powerful-wildwood-70333.herokuapp.com/]
 > Sorce code [ด้านบน]
 ##### แทนข้อมูลใน Array เป็น database
 ``` PHP
